@@ -5,8 +5,8 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
   	 <title>LAZAR</title>
 	  <link rel="preconnect" href="https://fonts.googleapis.com">
-	    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Unbounded:wght@300&display=swap" rel="stylesheet">
                 <link rel="stylesheet" type="text/css" href="../style.css" />
      
  </head>
@@ -76,6 +76,10 @@
         font-weight: 300; 
         margin:1em;
         top:0; bottom:0;
+	    transition: all 0.3s ease 0s;
+    }
+	.nav a:hover:not(:last-child) {
+        background-color:rgba(1, 1, 1, 1);
     }
     .nav .icon 
     {
@@ -87,9 +91,7 @@
             margin:16px 30px; 
          }
 */
-    a:hover {
-        background:#000;
-    }
+   
     
     
 @media screen and (max-width:800px) 
@@ -175,8 +177,8 @@
             padding-left:16%;
             color: white;
             display: inline-block;
-            font-family:Montserrat;  
-            font-weight:bold;
+            font-family:Unbounded;  
+            font-weight:300;
             }
          
     
@@ -185,8 +187,9 @@
             color: white;
             padding-left:16%;
             padding-right:16%;
-            font-family:Montserrat;
+            font-family:Unbounded;
             font-weight: 300;
+                font-size: 20px;
             }
     .paragraph
     {
