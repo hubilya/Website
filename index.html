@@ -11,34 +11,73 @@
      
  </head>
    <body>
-        <div class="nav" id="myNav">
-            <img class="logo" src="Group%20426.png">
-              <a href="#home" >ГОЛОВНА</a>
-              <a href="#about" onclick="Stats()">ПРО НАС</a>
-              <a href="#projects">ПРОЄКТИ</a>
-              <a href="#contacts">КОНТАКТИ</a>
-              <a href="#login">ЗВЯЗАТИСЬ З НАМИ</a>
-              <a href="javascript:void(0);" class="icon" onclick="myFunction()"><img src="burger.png"></a>
-        </div>
+    
       
+       <header class="header">
+          
+           <a href="#" class="logo"><img src = "lazar.png"></a>
+           
+               <input type="checkbox" id="check">
+                    <label for="check"class="icons"> 
+                           <i class='icon' id="menu-icon" ><img src="burger.png"></i>
+                           <i class='iconx' id="close-icon"><img src="close.png"></i>
+                    </label>     
+                           <nav class="nav">
+                               <a href="#" style="--i:0;">головна</a>
+                               <a href="#" style="--i:1;">про нас</a>
+                               <a href="#" style="--i:2;">проекти</a>
+                               <a href="#" style="--i:3;">контакти</a>
+                                 <a href="#" style="--i:4;">звязатись з нами</a>
+                           </nav>
+           
+       </header>
+      
+      <div class="container">
+                  <div class="left"> 
+                      <img class="string1" src="base.png">
+                      <img class="string2" src="base.png">
+                      <img class="string3" src="base.png">
+                      <img class="string4" src="base.png">
+                  </div>
+                         <div class="right">
+                            <h4>Заняття спортом у власному спортзалі, плавання в басейні на даху, довгі прогулянки в парку з родиною, коктейльна вечірка з друзями в оазисі зеленої тераси на даху будинку - все це реальність для наших мешканців. Навіть домашні улюбленці матимуть власну мийку для лапок в лобі. 
+                            </h4>
+                            <h4 class="text">Є і суто практичні рішення, продиктовані сьогоденням - зарядна станція для вашого електромобілю прямо на парковці, безпечне бомбосховище на нульовому поверсі.  
+                            </h4>
+                            <h4 class="text">Barcelona Central Park House — це не просто житло. Це розумний будинок, який турбується про кожного свого мешканця. 
+                            </h4>
+                            <h4><img class="liz" src="lizzard.png" width="200" height="60">
+                            </h4>
+                         </div>
+       </div>
+                          
+                           
+<!--
+       
+       
+       
+
        <div class="container">
-          <h1 >ІНФРАСТРУКТУРА </h1><br>
-               <h3>Житло іншого рівня, якого ви варті: в центрі міста Бориспіль, серед оазису природи.<br> Barcelona Central Park House місце втілення ваших мрій про ідеальне житло</h3><br>
+          <h1 >ІНФРАСТРУКТУРА</h1><br>
+               <h3>Житло іншого рівня, якого ви варті: в центрі міста Бориспіль, серед оазису природи.<br>Barcelona Central Park House місце втілення ваших мрій про ідеальне житло</h3><br>
                 <div class ="paragraph">
                        <img class="string1" src="base.png">
                        <h4 class="text">Заняття спортом у власному спортзалі, плавання в басейні на даху, довгі прогулянки в парку з родиною, коктейльна вечірка з друзями в оазисі зеленої тераси на даху будинку - все це реальність для наших мешканців. Навіть домашні улюбленці матимуть власну мийку для лапок в лобі. 
-                       </h4><br>
+                       </h4>
                        <img class="string2" src="base.png">
                        <h4 class="text">Є і суто практичні рішення, продиктовані сьогоденням - зарядна станція для вашого електромобілю прямо на парковці, безпечне бомбосховище на нульовому поверсі.  
-                       </h4><br>
+                       </h4>
                        <img class="string3" src="base.png">
                        <h4 class="text">Barcelona Central Park House — це не просто житло. Це розумний будинок, який турбується про кожного свого мешканця. 
-                       </h4><br>
+                       </h4>
                        <img class="string4" src="base.png">
-                       <img class="liz" src="lizzard.png" width="183" height="52">
+                       <h4><img class="liz" src="lizzard.png" width="200" height="60">
+                       </h4>
                  </div>      
        </div>
+-->
        
+<!--
         <div class="container2">
            
         </div>
@@ -47,102 +86,267 @@
        
        </div>
        
+-->
        
 <style>
-    
-    .nav 
-    {
-    line-height: 2.0em;
-    height:64px;
-    width:100%;
-    text-align:center;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.1);   
-    }
-    
-    .nav .logo
-    {
-        position:relative;
-        top: 0px;
-        bottom: 0.5em;
-        right:15px;
-    }
-    .nav  a 
-    {
-	    position:relative;
-	    
-         bottom:1.0em;
-        color: white;
-        display: inline-block;
-        text-decoration: none;
-        font-family:Montserrat;
-        font-weight: 300; 
-        margin:1em;
-        padding: 15px 10px; 
-	    transition: all 0.3s ease 0s;
-    }
-	.nav a:hover:not(:last-child) {
-        background-color:rgba(1, 1, 1, 1);
-    }
-    .nav .icon 
-    {
+    body
+            {
+            background-color: rgba(21, 21, 21, 1);
+            margin: 0;
+            padding:0;
+            height:100vh auto; 
+            }
+ 
+      .header{
+          position:relative;
+          background-color:  rgba(0, 0, 0, 1);
+          padding: 0.5rem 10%;
+          display:flex;
+          justify-content:space-between;
+          align-items: center;
+          z-index: 100;
+      }
+      .logo{
+          font-size:1.2rem;
+          text-decoration: none;
+          font-family: Unbounded;
+          color:#fff;
+          
+      }
+      .nav a:not(:last-child){
+          text-decoration: none;
+          font-family: Unbounded;
+          color:#fff;
+          font-size:1.2rem;
+          margin-left:2.5rem;
+      } 
+      .nav a:last-child{
+          text-decoration: none;
+          font-family: Unbounded;
+          color:#fff;
+          border: 1px solid white;
+          padding:5px 15px;
+          font-size:1.2rem;
+          margin-left:2.5rem;
+      } 
+      #check{
           display:none;
+      }
+      .icons{
+          
+          display:none;
+          position:absolute;
+          right:5%;
+          display:none;
+      }
+    
+    
+    .container{
+          
+          display:flex;
+        align-items:up;
+          padding: 5.5rem 10%;
+        
+       
+  
+  
+          
+          
+          
+        
+      }
+    
+ 
+    .right
+    { 
+      
+        
+        line-height:1.2em;
+            color: white;
+            font-family:Montserrat;
+            font-weight: lighter;
+            text-align:left;
+        font-size: 1rem;
     }
+    
+    .string1
+    {
+        width: 370px;
+        height: 128px;
+        object-fit: none; object-position: 0% 0%;
+    }
+   
+   .string2
+    {
+        width: 470px;
+        height: 128px;
+        object-fit: none; object-position: 0% 40%;
+    }
+    .string3
+    {
+        width: 566px;
+        height: 128px;
+        object-fit: none; object-position: 0% 69%; 
+    }
+    .string4{
+        width: 663px;
+        height: 198px;
+        object-fit: none; object-position: 0% 120%;
+    }
+    
+   
+    
+    
 /*
-         a
+   
+         .container
+                {
+                padding-top:7em;
+                    margin:0 10%;
+                text-align:left;   
+                height:944px;
+                align-items: center;
+                }
+          */  h1
+            {
+            font-size:2rem;
+            color: white;
+            display: inline-block;
+            font-family:Unbounded;  
+            font-weight:300;
+            }
+         
+    
+             h3
+            {
+            color: white;
+            font-family:Unbounded;
+            font-weight: 300;
+                font-size: 1.2rem;
+            }
+    
+    
+  /*  .string1
     {
-            margin:16px 30px; 
-         }
+        width: 370px;
+        height: 128px;
+        object-fit: none; object-position: 0% 0%;
+        float:left;
+        margin-right:1em;
+        
+    }
+   
+   .string2
+    {
+        width: 470px;
+        height: 128px;
+        object-fit: none; object-position: 0% 40%;
+        float:left;
+        margin-right:1em;
+       
+    }
+    .string3
+    {
+        width: 566px;
+        height: 128px;
+        object-fit: none; object-position: 0% 69%;
+        float:left;
+        margin-right:1em;
+        
+    }
+    .string4{
+        width: 663px;
+        height: 198px;
+        object-fit: none; object-position: 0% 120%;
+        float:left;
+        margin-right:1em;
+    }
+      
+
+    
+    
 */
-   
     
     
-@media screen and (max-width:800px) 
+    
+    
+    
+    
+    
+@media screen and (max-width:947px) 
 {
-    .nav
-    {
-        background-color: rgba(0, 0, 0, 1); 
+/*    ADAPTIVE NAV*/
+    .header{
+        padding: 1rem 5%;
+        background:rgba(0, 0, 0, .1);
+        box-shadow:0 /5rem 1rem rgba(0, 0, 0, .1);
     }
-  .nav a:not(:first-child) 
-    {
-        display: none
-    }
-  .nav a.icon 
-    {
-        float: right;
-        display:block; 
+/*    ADAPTIVE HOME PAGE*/
+
+
+     
+}
+      
+      
+      
+ @media screen and (max-width:838px) 
+{
+    .container{
+         flex-flow: column-reverse;
     }
   
-   
+    
+    
+    .icons{
+        display:inline-flex;
+        
+    }
+    #check:checked~.icons #menu-icon {
+        display:none;
+    }
+    #check:checked~.icons #close-icon {
+        display:block;
+    }
+    .icons #close-icon{
+        display:none;
+    }
+    .nav{
+        position:absolute;
+        top:100%;
+        left:0;
+        height:0;
+        width:100%;
+        overflow:hidden;
+        transition: .3s ease;
+        background:rgba(0, 0, 0, .1);
+        /*backdrop-filter:blur(10px);*/
+        box-shadow:0 /5rem 1rem rgba(0, 0, 0, .1);
+    }
+    
+    #check:checked~.nav {
+        height:17rem;
+    }
+    .nav a{
+        display:block;
+        margin:1.5rem 10%;
+        text-align:center;
+        transform:translateY(-50px);
+        transition: .3s ease;
+        opacity: 0;
+    }
+    #check:checked~.nav a:not(:last-child){
+        
+        opacity:1;
+        transform:translateY(0);
+        transition-delay: calc(.10s * var(--i));
+    }
+    
+} 
 
-}
-/*position relative on fixed*/
-@media screen and (max-width: 800px) 
-{
+        
+/*
+    
   
-  .nav.responsive 
-    {
-        height:auto;
-    }
-  .nav.responsive .icon 
-    {
-        position: absolute;
-        right: 0;
-        top: 0;   
-    }
-	
-    
-  .nav.responsive a 
-    {
-        position:relative;
-        float: none;
-        display: block;
-        text-align: left;
-    }
-    
-}
-    
-
 
 @media screen and (max-width:800px) 
 {
@@ -158,87 +362,13 @@
     .string4{
         display:none;
     }
-    }
+}
+*/
 
 
   
-         body
-            {
-            background-color: rgba(21, 21, 21, 1);   
-            margin: 0;padding:0;
-            height:100vh auto; 
-            }
          
-         .container
-                {
-                padding-top:7em;
-                text-align:left;   
-                height:944px;
-                align-items: center;
-                }
-            h1
-            {
-            padding-left:16%;
-            color: white;
-            display: inline-block;
-            font-family:Unbounded;  
-            font-weight:300;
-            }
-         
-    
-             h3
-            {
-            color: white;
-            padding-left:16%;
-            padding-right:16%;
-            font-family:Unbounded;
-            font-weight: 300;
-                font-size: 20px;
-            }
-    .paragraph
-    {
-        padding-left:16%;
-        padding-right:16%;
-        
-    }
-    .string1
-    {
-        width: 370px;
-        height: 128px;
-        object-fit: none; object-position: 0% 0%;
-        float:left;
-        margin-right:1em;
-    }
-   h4
-    {
-            color: white;
-            padding-left:16%;
-            font-family:Montserrat;
-            font-weight: lighter;
-    }
-   .string2
-    {
-        width: 470px;
-        height: 128px;
-        object-fit: none; object-position: 0% 40%;
-        float:left;
-        margin-right:1em;
-    }
-    .string3
-    {
-        width: 566px;
-        height: 128px;
-        object-fit: none; object-position: 0% 69%;
-        float:left;
-        margin-right:1em;
-    }
-    .string4{
-        width: 663px;
-        height: 198px;
-        object-fit: none; object-position: 0% 120%;
-        float:left;
-        margin-right:1em;
-    }
+      
 
           .container2 
                 {
@@ -247,32 +377,6 @@
                 padding-top:1em;
                 text-align: center; 
                  }
-    
-         .container3 
-            {
-            background-color:#fff;
-            text-align: center;
-            width:100%;
-            height:944px;   
-            }
-    
-            .container3 h1
-             {
-             font-family:Montserrat;
-             font-size: 1.7em;
-             font-weight: bolder;  
-             }
-    
-    .container3 h3
-    {
-             color: white;
-             padding-left:5%;
-             padding-right:5%;
-             font-family:Montserrat;
-             font-weight: 100;
-             font-size:1em;
-    }
-      
    
 
 
@@ -281,25 +385,12 @@
     
 
     
-       @font-face 
+    
+    @font-face 
             {
-              font-family: Neutronium;
+              font-family: Unbounded;
               font-style: normal;
-              font-weight: 400;
-              src: url("neutronium.medium.ttf");
-            }
-       @font-face 
-            {
-              font-family: Glitch;
-              font-style: normal;
-              font-weight: 400;
-              src: url("glitch.ttf");
-            }
-       @font-face 
-            {
-              font-family: Tech;
-              font-style: normal;
-              font-weight: 400;
+              font-weight: 300;
               src: url("tech.ttf");
             }
          
