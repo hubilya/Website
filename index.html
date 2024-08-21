@@ -31,26 +31,54 @@
                            </nav>
            
        </header>
-      
+      <div class="main">
+        <h1 >ІНФРАСТРУКТУРА</h1><br>
+               <h3>Житло іншого рівня, якого ви варті: в центрі міста Бориспіль, серед оазису природи.<br>Barcelona Central Park House місце втілення ваших мрій про ідеальне житло</h3><br>
       <div class="container">
+                 
                   <div class="left"> 
-                      <img class="string1" src="base.png">
-                      <img class="string2" src="base.png">
-                      <img class="string3" src="base.png">
-                      <img class="string4" src="base.png">
+                      <img class="string1" src="base.png" width="370" height="128">
+                      
                   </div>
                          <div class="right">
-                            <h4>Заняття спортом у власному спортзалі, плавання в басейні на даху, довгі прогулянки в парку з родиною, коктейльна вечірка з друзями в оазисі зеленої тераси на даху будинку - все це реальність для наших мешканців. Навіть домашні улюбленці матимуть власну мийку для лапок в лобі. 
+                            <h4 class="text">Заняття спортом у власному спортзалі, плавання в басейні на даху, довгі прогулянки в парку з родиною, коктейльна вечірка з друзями в оазисі зеленої тераси на даху будинку - все це реальність для наших мешканців. Навіть домашні улюбленці матимуть власну мийку для лапок в лобі. 
                             </h4>
-                            <h4 class="text">Є і суто практичні рішення, продиктовані сьогоденням - зарядна станція для вашого електромобілю прямо на парковці, безпечне бомбосховище на нульовому поверсі.  
-                            </h4>
-                            <h4 class="text">Barcelona Central Park House — це не просто житло. Це розумний будинок, який турбується про кожного свого мешканця. 
-                            </h4>
-                            <h4><img class="liz" src="lizzard.png" width="200" height="60">
-                            </h4>
+                            
                          </div>
        </div>
-                          
+                           <div class="container">
+                  <div class="left"> 
+                      <img class="string2" src="base.png" width="470" height="128">
+                      
+                  </div>
+                         <div class="right">
+                            <h4 class="text">Є і суто практичні рішення, продиктовані сьогоденням - зарядна станція для вашого електромобілю прямо на парковці, безпечне бомбосховище на нульовому поверсі.  
+                       </h4>
+                            
+                         </div>
+       </div>
+                           <div class="container">
+                  <div class="left"> 
+                      <img class="string3" src="base.png" width="570" height="128">
+                      
+                  </div>
+                         <div class="right">
+                             <h4 class="text">Barcelona Central Park House — це не просто житло. Це розумний будинок, який турбується про кожного свого мешканця. 
+                       </h4>
+                            
+                         </div>
+       </div>
+                           <div class="container">
+                  <div class="left"> 
+                      <img class="string4" src="base.png" width="670" height="128">
+                      
+                  </div>
+                         <div class="right">
+                            <img class="liz" src="lizzard.png" width="200" height="60">
+                            
+                         </div>
+       </div>
+              </div>            
                            
 <!--
        
@@ -58,8 +86,7 @@
        
 
        <div class="container">
-          <h1 >ІНФРАСТРУКТУРА</h1><br>
-               <h3>Житло іншого рівня, якого ви варті: в центрі міста Бориспіль, серед оазису природи.<br>Barcelona Central Park House місце втілення ваших мрій про ідеальне житло</h3><br>
+        
                 <div class ="paragraph">
                        <img class="string1" src="base.png">
                        <h4 class="text">Заняття спортом у власному спортзалі, плавання в басейні на даху, довгі прогулянки в парку з родиною, коктейльна вечірка з друзями в оазисі зеленої тераси на даху будинку - все це реальність для наших мешканців. Навіть домашні улюбленці матимуть власну мийку для лапок в лобі. 
@@ -99,7 +126,7 @@
  
       .header{
           position:relative;
-          background-color:  rgba(0, 0, 0, 1);
+          background-color:  rgba(0, 0, 0, 0.1);
           padding: 0.5rem 10%;
           display:flex;
           justify-content:space-between;
@@ -139,28 +166,27 @@
           right:5%;
           display:none;
       }
-    
-    
+
+    .main{
+          
+        
+          padding: 5.5rem 10%;
+     
+        
+      }
     .container{
           
           display:flex;
-        align-items:up;
-          padding: 5.5rem 10%;
-        
-       
-  
-  
-          
-          
-          
+        align-items:center;
+          padding: .1rem 0%;
+     
         
       }
-    
  
-    .right
+     .right
     { 
       
-        
+        padding-left:2%;
         line-height:1.2em;
             color: white;
             font-family:Montserrat;
@@ -168,30 +194,32 @@
             text-align:left;
         font-size: 1rem;
     }
-    
+   
     .string1
     {
-        width: 370px;
-        height: 128px;
+        
         object-fit: none; object-position: 0% 0%;
+        padding-bottom:1%;
+        
     }
    
    .string2
     {
-        width: 470px;
-        height: 128px;
+       
         object-fit: none; object-position: 0% 40%;
+        padding-bottom:1%;
     }
     .string3
     {
-        width: 566px;
-        height: 128px;
-        object-fit: none; object-position: 0% 69%; 
+     
+        object-fit: none; object-position: 0% 69%;
+        padding-bottom:1%;
     }
     .string4{
-        width: 663px;
-        height: 198px;
-        object-fit: none; object-position: 0% 120%;
+       
+       
+        object-fit: none; object-position: 0% 100%;
+        padding-bottom:1%;
     }
     
    
@@ -282,8 +310,17 @@
         box-shadow:0 /5rem 1rem rgba(0, 0, 0, .1);
     }
 /*    ADAPTIVE HOME PAGE*/
-
-
+    .main{
+        padding: 5.5rem 5%;
+    }
+.container{
+         flex-flow: column-reverse;
+       
+    }
+   
+    .string1, .string2, .string3, .string4{
+        display:none;
+    }
      
 }
       
@@ -291,10 +328,7 @@
       
  @media screen and (max-width:838px) 
 {
-    .container{
-         flex-flow: column-reverse;
-    }
-  
+    
     
     
     .icons{
@@ -340,7 +374,27 @@
         transform:translateY(0);
         transition-delay: calc(.10s * var(--i));
     }
-    
+  .string1
+    {
+        width:70%;
+       
+    }
+   
+   .string2
+    {
+       width:80%;
+       
+    }
+    .string3
+    {
+     width:90%;
+       
+    }
+    .string4{
+       width:100%;
+       
+      
+    }
 } 
 
         
@@ -499,4 +553,3 @@ if(name == "" || pass == ""){
    
  </body>
 </html>
-
