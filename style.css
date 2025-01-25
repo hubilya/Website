@@ -1,0 +1,133 @@
+body
+            {
+            background-color: rgba(21, 21, 21, 1);
+            margin: 0;
+            padding:0;
+          
+            }
+.big{
+    display: flex;
+    flex-direction: column;
+    gap:.8em;
+    padding:8em 10em 8em 8em;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    gap:1em;
+    align-items: center;
+
+}
+img{
+    width:100%;
+    height:100%;
+    object-fit: none;
+}
+#img1{object-position: 0% 0%;}
+#img2{object-position: 0% 40%;}
+#img3{object-position: 0% 70%;}
+#img4{object-position: 0% 100%;}
+.box1{
+    height:120px;
+    background-color: aqua;
+    max-width:360px;
+    width:100%;
+}
+.box2{
+    height:120px;
+    background-color: aqua;
+    max-width: 460px;
+    width:100%;
+}
+.box3{
+    height:120px;
+    background-color: aqua;
+    max-width: 560px;
+    width:100%;
+}
+.box4{
+    height:120px;
+    background-color: aqua;
+    max-width: 660px;
+    width:100%;
+}
+
+
+
+  .text
+            {
+            color: white;
+            font-family:Unbounded;
+            font-weight: 200;
+                font-size: 1rem;
+                flex:1;
+            }
+   
+
+
+    .secret{
+        display:none;
+    }
+    .container1{display:flex;
+    flex-direction: column;
+    align-items: left;
+justify-content: center;width:100%;
+}
+    .box01{
+        height:90px;
+        max-width:140px;
+        width:100%;
+        margin-bottom:2%;
+    }
+    .box02{
+        height:90px;
+        max-width: 200px;
+        width:100%;
+        margin-bottom:2%;
+    }
+    .box03{
+        height:90px;
+        max-width: 250px;
+        width:100%;
+        margin-bottom:2%;
+    }
+    .box04{
+        height:90px;
+        max-width: 320px;
+        width:100%;
+        margin-bottom:10%;
+    }
+    #img01{object-position: 10% 15%;}
+#img02{object-position: 11% 40%;}
+#img03{object-position: 12% 70%;}
+#img04{object-position: 14.5% 90%;}
+
+            @media screen and (max-width:900px) 
+            {
+                .big{
+                    padding:2em;
+                    gap:.8em;
+                }
+                .container{
+                    display:flex;
+                    flex-direction: column;
+                    gap:0em;
+                    align-items: center;
+                
+                }
+                .box1,.box2,.box3,.box4{
+                    display:none;
+                }
+                .secret{
+                    display:flex;
+                    align-items: left;
+                    justify-content: center;
+                    margin:0em 2em ;
+                }
+                .container1 img{
+                    margin:1em auto;
+                }
+                .text img{
+                    display:none;
+                   }
+            }
